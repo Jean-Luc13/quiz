@@ -1,9 +1,9 @@
 
 let quizQuestions = [{
-    question: "What is the 6th planet from our sun?",
+    question: "What is the biggest star known to mankind?",
     //questionName : 1,
-    answers: ["Earth", "Pluto", "Saturn", "Mercury"],
-    correctAnswer: 2
+    answers: ["UY Scuti", "Betelgeuse", "NML Cygni", "VY Canis Majoris"],
+    correctAnswer: 0
   },
   {
     question: "How long does it take on average, for sunlight to reach earth?",
@@ -18,10 +18,10 @@ let quizQuestions = [{
     correctAnswer: 1
   },
   {
-    question: "What is the biggest star known to mankind?",
+    question: "How many constellations are there in the sky?",
     //questionName : 4,
-    answers: ["UY Scuti", "Betelgeuse", "NML Cygni", "VY Canis Majoris"],
-    correctAnswer: 0
+    answers: ["66 constellations", "74 constellations", "88 constellations", "94 constellations"],
+    correctAnswer: 2
   },
   {
     question: "How cold is pluto?",
@@ -30,28 +30,28 @@ let quizQuestions = [{
     correctAnswer: 0
   },
   {
-    question: "How many moons does Jupiter have?",
+    question: "How many years does Pluto take to orbit the sun?",
     //questionName : 6,
-    answers: ["53", "27", "46", "69"],
+    answers: ["215 years", "165 years", "187 years", "248 years"],
     correctAnswer: 3
   },
   {
-    question: "What is the name of our sun?",
+    question: "How large is the horsehead nebula?",
     //questionName : 7,
-    answers: ["Alpha Centauri", "Sol", "Sirius", "Rigel"],
-    correctAnswer: 1
-  },
-  {
-    question: "How many planets in our solar system?",
-    //questionName : 8,
-    answers: ["9", "11", "8", "13"],
-    correctAnswer: 2
+    answers: ["Approx 3.5 x 2.5 light years", "Approx 1.5 x 3.5 light years", "Approx 5.0 x 3.5 light years", "Approx 4.0 x 3.0 light years"],
+    correctAnswer: 0
   },
   {
     question: "How long does the solar system take to orbit the Milky Way galaxy?",
-    //questionName : 9,
+    //questionName : 8,
     answers: ["About 250 million years", "About 210 million years", "About 270 million years", "About 230 million years"],
     correctAnswer: 3
+  },
+  {
+    question: "What is the most common type of star?",
+    //questionName : 9,
+    answers: ["Red Giant star", "Neutron star", "Red Dwarf star", "White Dwarf star"],
+    correctAnswer: 2
   },
   {
     question: "What is the average velocity of the solar system?",
@@ -72,51 +72,51 @@ let quizQuestions = [{
     correctAnswer: 1
   },
   {
-    question: "What is the most common type of star?",
+    question: "How many planets in our solar system?",
     //questionName : 13,
-    answers: ["Red Giant star", "Neutron star", "Red Dwarf star", "White Dwarf star"],
+    answers: ["9", "11", "8", "13"],
     correctAnswer: 2
   },
   {
-    question: "How many years does Pluto take to orbit the sun?",
+    question: "How many moons does Jupiter have?",
     //questionName : 14,
-    answers: ["215 years", "165 years", "187 years", "248 years"],
+    answers: ["53", "27", "46", "69"],
     correctAnswer: 3
   },
   {
-    question: "How large is the horsehead nebula?",
+    question: "What is the name of our sun?",
     //questionName : 15,
-    answers: ["Approx 3.5 x 2.5 light years", "Approx 1.5 x 3.5 light years", "Approx 5.0 x 3.5 light years", "Approx 4.0 x 3.0 light years"],
-    correctAnswer: 0
+    answers: ["Alpha Centauri", "Sol", "Sirius", "Rigel"],
+    correctAnswer: 1
   },
   {
-    question: "How many constellations are there in the sky?",
+    question: "What is the 6th planet from our sun?",
     //questionName : 16,
-    answers: ["66 constellations", "74 constellations", "88 constellations", "94 constellations"],
+    answers: ["Earth", "Pluto", "Saturn", "Mercury"],
     correctAnswer: 2
-  },
-  {
-    question: "What is the speed of light?",
-    //questionName : 17,
-    answers: ["315,000 km per second", "310,000 km per second", "305,000 km per second", "300,000 km per second"],
-    correctAnswer: 3
   },
   {
     question: "How hot is the sun?",
-    //questionName : 18,
+    //questionName : 17,
     answers: ["9 940 Kelvin", "5 778 Kelvin", "3 500 Kelvin", "4 290 Kelvin"],
     correctAnswer: 1
   },
   {
     question: "How far away is the moon?",
-    //questionName : 19,
+    //questionName : 18,
     answers: ["384 400 km", "385 400 km", "386 400 km", "387 400 km"],
     correctAnswer: 0
   },
   {
     question: "What is the closest spiral galaxy to the Milky Way?",
-    //questionName : 20,
+    //questionName : 19,
     answers: ["Pinwheel Galaxy", "Messier 74 Galaxy", "Sunflower Galaxy", "Andromeda Galaxy"],
+    correctAnswer: 3
+  },
+  {
+    question: "What is the speed of light?",
+    //questionName : 20,
+    answers: ["315,000 km per second", "310,000 km per second", "305,000 km per second", "300,000 km per second"],
     correctAnswer: 3
   },
 
@@ -146,7 +146,7 @@ $(document).ready(function() {
     i++;
 
   }
- //debugger;
+ 
   $('#questionnaire').submit(function(event) {
 
     event.preventDefault();

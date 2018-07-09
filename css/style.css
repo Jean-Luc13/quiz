@@ -1,0 +1,23 @@
+@media (max-width: 700px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/mercury.jpg), url(../images/jupiter.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top;
+    position: relative;
+    color: snow; }
+    body #questionnaire {
+      display: block; } }
+@media (min-width: 700px) {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../images/mercury.jpg), url(../images/jupiter.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom, top;
+    position: relative;
+    color: snow; }
+    body #heading {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: white; } }
+
+/*# sourceMappingURL=style.css.map */
