@@ -18,6 +18,44 @@
     color: snow; }
     body #heading {
       font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-      color: white; } }
+      color: #7b38d8;
+      margin: 0; }
+      body #heading h1 {
+        margin: 0; }
+    body .container {
+      top: 50%;
+      left: 50%;
+      width: 130px;
+      text-align: center; }
+    body .button {
+      display: inline-block;
+      background-color: #7b38d8;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px; }
+    body .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s; }
+    body .button span:after {
+      content: '\272F';
+      position: absolute;
+      opacity: 0;
+      top: -6px;
+      right: -20px;
+      transition: 0.5s; }
+    body .button:hover span {
+      padding-right: 25px; }
+    body .button:hover span:after {
+      opacity: 1;
+      right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
